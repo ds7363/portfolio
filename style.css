@@ -42,6 +42,8 @@ a:active {color:white}
 
 .Clickable
 {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
     text-align: center;
 }
 
@@ -168,6 +170,7 @@ ul li a img {
     width: 125px;
     height: 125px;
     display: block;
+    transition: 0.3s all ease;
 }
 ul li a:hover img {
     transform: scale(1.5);
@@ -180,55 +183,129 @@ ul li a:hover img {
     text-align: center;
     font-size: 30px;
 }
-.Orange
-{
-    margin-top: 500px;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    overflow-x: hidden;
-}
 
 .Brown
 {
-    margin-top: -200px;
-    align-items: center;
-    justify-content: center;
     max-width: 100%;
-    margin-right:0;
-    margin-left: 0;
     overflow-x: hidden;
 }
-
-.Gray
+.Sportstext
 {
-    margin-top: -200px;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    margin-right:0;
-    padding-right: 40vw;
-    overflow-x: hidden;
-}
-
-.Gray2
-{
-    margin-top: -400px;
-    margin-right:0;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%; /* Ensure images don't exceed their container */
-    height: auto;
-    overflow-x: hidden;
-    
-}
-#Graydark
-{
-}
-
-#beginning
-{
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
     text-align: center;
-    margin-top: -500px;
+    margin-top: -72vw;
+}
+.Sports
+{
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -56vw;
+    padding: 7vw;
+    font-size: 40px;
 }
 
+.Gym
+{
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -7vw;
+    font-size: 40px;
+}
+#Gym
+{
+    margin-left: 9vw;
+    scale:50%;
+}
+
+#weightlifting
+{
+    margin-top: 13vw;
+    padding-right: 7vw;
+}
+
+#Basketball
+{
+    margin-left: 10vw;
+    scale:130%;
+}
+
+.hover-sound:hover + #hover-sound {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .hover-sound1:hover + #hover-sound1 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .Cave
+  {
+    display: inline-block;
+    margin-top: 50vw;
+      max-width: 100%;
+      overflow: hidden;
+  }
+
+  .Fire
+  {
+    margin-top: -30vw;
+    text-align: center;
+  }
+
+  .Bunseen
+  {
+    visibility: hidden;
+    text-align: center;
+    margin-top: -35vw;
+    transform: scale(0.5);
+    opacity:0;
+    transition: opacity 2s ease-in-out, visibility 0.3s ease-in-out;
+  }
+
+  .Bunseen.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  #born
+  {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    font-size: 40px;
+  }
+  .Flag
+  {
+    visibility: hidden;
+    padding-top: 4vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5vw;
+    transform: scale(0.7);
+    margin-top: -63vw;
+    text-align: right;
+    opacity: 0;
+    transition: opacity 2s ease-in-out, visibility 0.3s ease-in-out;
+  }
+
+  .Flag.visible 
+  {
+    opacity:1;
+    visibility:visible;
+  }
+  
