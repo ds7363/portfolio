@@ -11,6 +11,7 @@ a {
     src: url("delagothic.ttf");
 }
 
+
 body
 {
     margin: 0 auto;
@@ -18,6 +19,21 @@ body
     font-weight: bold;
     color: white;
     font-family: "GothamBold";
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content
+{
+    position: relative;
+    z-index: 1;
 }
 
 a:link { text-decoration: none; color: white} 
@@ -182,6 +198,7 @@ ul li a:hover img {
     -webkit-text-stroke-color: black;
     text-align: center;
     font-size: 30px;
+    margin-bottom: 5vw;
 }
 
 .Brown
@@ -202,7 +219,6 @@ ul li a:hover img {
     -webkit-text-stroke-color: black;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: -56vw;
     padding: 7vw;
     font-size: 40px;
 }
@@ -213,8 +229,9 @@ ul li a:hover img {
     -webkit-text-stroke-color: black;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: -7vw;
+    margin-top: -5vw;
     font-size: 40px;
+    margin-bottom: 5vw;
 }
 #Gym
 {
@@ -257,15 +274,17 @@ ul li a:hover img {
   .Cave
   {
     display: inline-block;
-    margin-top: 50vw;
+    margin-top: 46.2vw;
       max-width: 100%;
       overflow: hidden;
+      margin-bottom: -4vw;
   }
 
   .Fire
   {
-    margin-top: -30vw;
+    margin-top: 30vw;
     text-align: center;
+    margin-bottom: -4vw;
   }
 
   .Bunseen
@@ -307,5 +326,22 @@ ul li a:hover img {
   {
     opacity:1;
     visibility:visible;
+  }
+
+  .Rocks
+  {
+    margin: 0 auto;
+    margin-left: -5vw;
+    margin-top: -75vw;
+    overflow-x: hidden;
+  }
+
+  .Stones
+  {
+    margin: 0 auto;
+    margin-left: -5vw;
+    margin-top: -70vw;
+    overflow-x: hidden;
+
   }
   
